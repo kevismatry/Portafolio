@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+.banner-container {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.banner-container img {
+   max-width: 100%;
+   height: auto;
+}
+
+.about-section {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.profile-picture img {
+  width: 180px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.about-content h2, .about-content h3, .about-content p {
+  margin-bottom: 10px;
+}
+
+.experience-section {
+   margin-top: 20px;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.experience-details h3, .experience-details p {
+  margin-bottom: 5px;
+}
+
+.education-section {
+  margin-top: 20px;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.institute-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.education-details h3, .education-details p {
+  margin-bottom: 5px;
+}
