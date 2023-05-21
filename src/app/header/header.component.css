@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffd000;
+}
+
+.logo {
+  position: relative;
+
+}
+
+.logo img {
+  width: 250px;
+  height: 150px;
+}
+
+
+
+.instagram {
+  width: 90px;
+  display: inline-block;
+  margin-left: 9px
+  }
+
+.facebook {
+   width: 90px;
+   margin-left: 5px
+}
